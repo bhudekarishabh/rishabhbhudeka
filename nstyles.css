@@ -1,0 +1,192 @@
+html{
+    scroll-behavior: smooth;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: whitesmoke;
+    display: block;
+    position: fixed;
+    padding: 0.6em 0;
+    text-align: center;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(23, 167, 155);
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexwel, .flexskill, .flexintern, .flexpro, .flexcon{
+    display: flex;
+    background-color: rgb(178, 240, 248);
+}
+.flexwel1, .edudetails, .divintern, .prodet,.flexcon{
+    text-align: center;
+    margin: auto;
+}
+.fullheight{
+    height: 100%;
+}
+.welcomeh1{
+    font-size: 7vh;
+    font-family: 'Rock Salt', cursive;
+    color: rgb(110, 63, 18);
+}
+.welcomeh11, .eduh1, .deth2, .proj, .conh3{
+    font-family: 'Rock Salt', cursive;
+    color: rgb(23, 167, 155);
+}
+.welcomep, .edup, .skillp, .divintern, .prodet{
+    color: rgb(23, 167, 155);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.welcomep1, .condet{
+    color: rgb(23, 167, 155);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+span{
+    color: rgb(110, 63, 18);
+    font-family: 'Fugaz One', cursive;
+}
+.flexedu{
+    display: flex;
+    background-color: rgb(211, 235, 238);
+}
+.order{
+    order: 2;
+}
+.skillflow{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillflow img{
+    margin: 5%;
+}
+.divintern, .skillp, .prodet{
+    margin: 4% 1.5% auto 1.5%;
+}
+.flexcon{
+    justify-content: space-evenly;
+}
+.conh3{
+    margin-top: 13%;
+}
+.stylee{
+    color: rgb(10, 110, 134);
+}
+.scrollbox{
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 500px){
+    .flexwel{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexwel img{
+        margin-top: 10%;
+        width: 100%;
+        height: 50%;
+    }
+   .flexwel1 h1{
+       margin: auto;
+       font-size: 80%;
+    }
+    .flexwel p{
+        margin: auto;
+        font-size: 70%;
+    }
+    nav{
+    background-color:rgb(178, 240, 248) ;
+    display: block;
+    position: fixed;
+    padding: 0.2em 0;
+    text-align: center;
+    width: 90%;
+    font-size: 20%;}
+    .flexedu{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexedu img{
+        width: 100%;
+        height: 40%;
+    }
+    .edudetails{
+        margin: auto;
+        font-size: 70%;
+    }
+    .edudetails h2{
+        margin: auto;
+        font-size: 80%;
+    }
+    .flexskill{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexskill img{
+        width: 100%;
+        height: 35%;
+    }
+    .skillflow img{
+        height: 7%; 
+        width:7%; 
+        border-radius: 100%;
+    }
+    .flexintern{
+        display: flex;
+        flex-direction: column; 
+    }
+    .flexintern img{
+        width: 100%;
+        height: 35%;
+    }
+    .divintern{
+        margin: auto 5%;
+        font-size: 70%;
+    }
+    .divintern h3{
+        margin: auto;
+        font-size: 85%; 
+    }
+    .flexpro{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexpro img{
+        width: 100%;
+        height: 40%; 
+    }
+    .prodet{
+        margin: auto 3%;
+        font-size: 60%;
+    }
+    .flexcon{
+        display: flex;
+        flex-direction: column; 
+    }
+    .flexcon img{
+        width: 100%;
+        height: 40%; 
+        flex: 2;
+    }
+    .condet{
+        margin: 0 3% auto 3%;
+        font-size: 60%;
+    }
+    .condet img{
+        height: 5%; 
+        width: 5%; 
+        border-radius: 100%;
+    }
+}
