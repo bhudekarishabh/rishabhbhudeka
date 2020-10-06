@@ -39,7 +39,7 @@ a:hover{
     background-color: greenyellow;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 425px){
     body{
         background-size: 100% 100%;
         text-align: center;

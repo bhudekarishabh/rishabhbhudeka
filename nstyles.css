@@ -16,7 +16,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Poppins', sans-serif;
     color: rgb(23, 167, 155);
 }
 .navbar{
@@ -39,21 +39,21 @@ nav a{
     font-family: 'Rock Salt', cursive;
     color: rgb(110, 63, 18);
 }
-.welcomeh11, .eduh1, .deth2, .proj, .conh3{
-    font-family: 'Rock Salt', cursive;
+.welcomeh11, .eduh1, .skillp, .deth2, .proj, .conh3{
+    font-family: 'Poppins', sans-serif;
     color: rgb(23, 167, 155);
 }
-.welcomep, .edup, .skillp, .divintern, .prodet{
+.welcomep, .edup, .divintern, .prodet{
     color: rgb(23, 167, 155);
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 .welcomep1, .condet{
     color: rgb(23, 167, 155);
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 span{
     color: rgb(110, 63, 18);
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 .flexedu{
     display: flex;
@@ -72,14 +72,19 @@ span{
 .skillflow img{
     margin: 5%;
 }
-.divintern, .skillp, .prodet{
+ .skillp{
     margin: 4% 1.5% auto 1.5%;
+}
+.skillflow p{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(23, 167, 155);
+    margin: 0;
 }
 .flexcon{
     justify-content: space-evenly;
 }
 .conh3{
-    margin-top: 13%;
+    margin-top: 15%;
 }
 .stylee{
     color: rgb(10, 110, 134);
@@ -112,7 +117,7 @@ span{
     position: fixed;
     padding: 0.2em 0;
     text-align: center;
-    width: 90%;
+    width: 100%;
     font-size: 20%;}
     .flexedu{
         display: flex;
