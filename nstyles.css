@@ -144,8 +144,8 @@ span{
         height: 35%;
     }
     .skillflow img{
-        height: 7%; 
-        width:7%; 
+        height: 5%; 
+        width:6%; 
         border-radius: 100%;
     }
     .flexintern{
@@ -190,8 +190,8 @@ span{
         font-size: 60%;
     }
     .condet img{
-        height: 5%; 
-        width: 5%; 
+        height: 3%; 
+        width: 3%; 
         border-radius: 100%;
     }
 }
