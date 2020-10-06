@@ -1,4 +1,4 @@
-html, body{
+body{
     height: 100%;
     margin: 0;
 }
@@ -17,14 +17,19 @@ h1{
     color: greenyellow;
 }
 .pone{
+    padding: 2%;
     font-size: 70%;
     color: greenyellow;
 }
 .ptwo{
+    padding: 2%;
     font-size: 70%;
     color: greenyellow;
 }
 a{
+    position: absolute;
+    top: 60%;
+    right: 46%;
     padding: 10px;
     font-family: 'Press Start 2P', cursive;
     text-decoration: none;
@@ -52,5 +57,6 @@ a:hover{
     .pone, .ptwo{
         font-size: 50%;
     }
+    
 }
 
