@@ -25,9 +25,6 @@ h1{
     color: greenyellow;
 }
 a{
-    position: absolute;
-    top: 60%;
-    right: 46%;
     padding: 10px;
     font-family: 'Press Start 2P', cursive;
     text-decoration: none;
@@ -41,6 +38,9 @@ a:hover{
 
 @media screen and (max-width: 425px){
     body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background-size: 100% 100%;
         text-align: center;
         font-family: 'Press Start 2P', cursive;
@@ -50,22 +50,7 @@ a:hover{
         font-size: 80%;
     }
     .pone, .ptwo{
-        position: absolute;
         font-size: 50%;
     }
-    .pone{
-        top: 20%;
-        right: 14%;
-    }
-    .ptwo{
-        top: 25%;
-        right: 2.5%;
-    }
-    a{
-        position: absolute;
-        top: 50%;
-        right: 33%;
-    }
-
 }
 
