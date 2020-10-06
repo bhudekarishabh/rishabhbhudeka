@@ -57,6 +57,10 @@ a:hover{
     .pone, .ptwo{
         font-size: 50%;
     }
+    a{
+        position:inherit;
+    }
+
     
 }
 
